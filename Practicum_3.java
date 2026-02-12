@@ -22,8 +22,10 @@ public class Practicum_3{
         double nilaiDASPRO = sc.nextDouble();
         System.out.print("Nilai KDKK: ");
         double nilaiKDKK = sc.nextDouble();
+        System.out.print("Nilai PDASPRO: ");
+        double nilaiPDASPRO = sc.nextDouble();
 
-        double NilaiRata = (nilaiPancasila + nilaiKTI + nilaiCTPS + nilaiMath + nilaiBING + nilaiDASPRO + nilaiKDKK) / 7;
+        double NilaiRata = (nilaiPancasila + nilaiKTI + nilaiCTPS + nilaiMath + nilaiBING + nilaiDASPRO + nilaiKDKK + nilaiPDASPRO) / 8;
 
         System.out.println("=================================");
         System.out.printf("Nilai Akhir Semester: %.2f%n", NilaiRata);
